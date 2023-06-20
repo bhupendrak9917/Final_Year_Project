@@ -1,0 +1,16 @@
+Requirements
+Python version >=3.7.3
+
+Create a virtual environment to use it in a better way so that there won't be any conflict regarding versions of the library:
+--Conda environment:
+  conda create -n <name of your environment>
+  conda activate <name of your environment>
+
+
+--pip virtualenv:
+  pip install virtualenv
+  virtualenv <name of your environment>
+  <name of your environment>\Scripts\activate
+
+To install the libraries open the command line/ Terminal in the same directory and type:
+pip install -r requirements.txt
